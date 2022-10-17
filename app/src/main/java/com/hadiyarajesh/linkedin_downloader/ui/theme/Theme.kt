@@ -1,4 +1,4 @@
-package com.hadiyarajesh.composetemplate.ui.theme
+package com.hadiyarajesh.linkedin_downloader.ui.theme
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material.MaterialTheme

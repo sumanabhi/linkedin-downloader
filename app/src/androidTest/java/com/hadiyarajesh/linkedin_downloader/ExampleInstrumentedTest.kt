@@ -1,4 +1,4 @@
-package com.hadiyarajesh.composetemplate
+package com.hadiyarajesh.linkedin_downloader
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

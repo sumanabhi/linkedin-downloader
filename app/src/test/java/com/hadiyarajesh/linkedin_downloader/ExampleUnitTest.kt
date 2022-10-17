@@ -1,4 +1,4 @@
-package com.hadiyarajesh.composetemplate
+package com.hadiyarajesh.linkedin_downloader
 
 import org.junit.Test
 

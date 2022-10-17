@@ -1,4 +1,4 @@
-package com.hadiyarajesh.composetemplate.ui.navigation
+package com.hadiyarajesh.linkedin_downloader.ui.navigation
 
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
@@ -6,11 +6,11 @@ import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
-import com.hadiyarajesh.composetemplate.ui.home.HomeScreen
-import com.hadiyarajesh.composetemplate.ui.home.HomeViewModel
+import com.hadiyarajesh.linkedin_downloader.ui.home.HomeScreen
+import com.hadiyarajesh.linkedin_downloader.ui.home.HomeViewModel
 
 @Composable
-fun ComposeTemplateNavigation(
+fun LinkedInDownloaderNavigation(
     modifier: Modifier = Modifier,
     navController: NavHostController,
 ) {

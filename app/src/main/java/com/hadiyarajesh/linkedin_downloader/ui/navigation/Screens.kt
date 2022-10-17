@@ -1,7 +1,7 @@
-package com.hadiyarajesh.composetemplate.ui.navigation
+package com.hadiyarajesh.linkedin_downloader.ui.navigation
 
 import androidx.annotation.DrawableRes
-import com.hadiyarajesh.composetemplate.R
+import com.hadiyarajesh.linkedin_downloader.R
 
 sealed class Screens(
     val route: String,

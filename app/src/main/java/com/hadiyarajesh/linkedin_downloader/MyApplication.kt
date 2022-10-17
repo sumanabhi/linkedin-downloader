@@ -1,4 +1,4 @@
-package com.hadiyarajesh.composetemplate
+package com.hadiyarajesh.linkedin_downloader
 
 import android.app.Application
 import dagger.hilt.android.HiltAndroidApp

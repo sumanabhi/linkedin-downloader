@@ -1,4 +1,4 @@
-package com.hadiyarajesh.composetemplate.repository
+package com.hadiyarajesh.linkedin_downloader.repository
 
 import android.util.Log
 import javax.inject.Inject

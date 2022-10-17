@@ -6,11 +6,11 @@ plugins {
 }
 
 android {
-    namespace = "com.hadiyarajesh.composetemplate"
+    namespace = "com.hadiyarajesh.linkedin_downloader"
     compileSdk = 33
 
     defaultConfig {
-        applicationId = "com.hadiyarajesh.composetemplate"
+        applicationId = "com.hadiyarajesh.linkedin_downloader"
         minSdk = 21
         targetSdk = 33
         versionCode = 1
@@ -58,7 +58,7 @@ object LibVersion {
     const val retrofitVersion = "2.9.0"
     const val moshiVersion = "1.13.0"
     const val coilVersion = "2.2.0"
-    const val flowerVersion = "3.0.0"
+//    const val flowerVersion = "3.0.0"
 }
 
 dependencies {
@@ -84,9 +84,9 @@ dependencies {
         because("An image loading library for Android backed by Kotlin Coroutines")
     }
 
-    implementation("io.github.hadiyarajesh.flower-retrofit:flower-retrofit:${LibVersion.flowerVersion}") {
-        because("Flower simplifies networking and database caching on Android/Multiplatform")
-    }
+//    implementation("io.github.hadiyarajesh.flower-retrofit:flower-retrofit:${LibVersion.flowerVersion}") {
+//        because("Flower simplifies networking and database caching on Android/Multiplatform")
+//    }
 
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.3")

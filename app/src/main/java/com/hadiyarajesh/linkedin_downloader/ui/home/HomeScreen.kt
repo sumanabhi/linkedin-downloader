@@ -1,4 +1,4 @@
-package com.hadiyarajesh.composetemplate.ui.home
+package com.hadiyarajesh.linkedin_downloader.ui.home
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
@@ -8,7 +8,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.navigation.NavController
-import com.hadiyarajesh.composetemplate.R
+import com.hadiyarajesh.linkedin_downloader.R
 
 @Composable
 fun HomeScreen(
