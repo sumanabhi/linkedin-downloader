@@ -1,2 +1,2 @@
-# Compose-template
+# LinkedIn downloader
 Download LinkedIn videos
