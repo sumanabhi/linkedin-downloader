@@ -58,6 +58,7 @@ object LibVersion {
     const val retrofitVersion = "2.9.0"
     const val moshiVersion = "1.13.0"
     const val coilVersion = "2.2.0"
+    const val accompanistVersion = "0.25.0"
 //    const val flowerVersion = "3.0.0"
 }
 
@@ -84,9 +85,9 @@ dependencies {
         because("An image loading library for Android backed by Kotlin Coroutines")
     }
 
-//    implementation("io.github.hadiyarajesh.flower-retrofit:flower-retrofit:${LibVersion.flowerVersion}") {
-//        because("Flower simplifies networking and database caching on Android/Multiplatform")
-//    }
+    implementation("com.google.accompanist:accompanist-permissions:${LibVersion.accompanistVersion}")
+
+    implementation("org.jsoup:jsoup:1.15.3")
 
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.3")
