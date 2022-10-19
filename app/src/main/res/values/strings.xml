@@ -1,4 +1,9 @@
 <resources>
-    <string name="app_name">LinkedIn downloader</string>
+    <string name="app_name">LinkedIn Downloader</string>
     <string name="welcome_message">Welcome to LinkedIn downloader</string>
+    <string name="enter_linkedin_url_here">Enter LinkedIn url here</string>
+    <string name="provide_storage_permission_in_settings">Please provide storage permission in settings.</string>
+    <string name="provide_valid_linkedin_url">Please provide valid LinkedIn url</string>
+    <string name="download_started">Download started</string>
+    <string name="download">Download</string>
 </resources>

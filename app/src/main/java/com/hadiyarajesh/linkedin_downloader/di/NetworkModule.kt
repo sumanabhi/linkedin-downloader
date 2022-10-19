@@ -1,7 +1,7 @@
 package com.hadiyarajesh.linkedin_downloader.di
 
+import com.hadiyarajesh.linkedin_downloader.BuildConfig
 import com.hadiyarajesh.linkedin_downloader.utility.Constants
-//import com.hadiyarajesh.flower_retrofit.FlowerCallAdapterFactory
 import com.squareup.moshi.Moshi
 import dagger.Module
 import dagger.Provides
@@ -12,7 +12,6 @@ import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
 import retrofit2.converter.moshi.MoshiConverterFactory
 import javax.inject.Singleton
-import com.hadiyarajesh.linkedin_downloader.BuildConfig
 
 @Module
 @InstallIn(SingletonComponent::class)
@@ -54,7 +53,6 @@ class NetworkModule {
             .baseUrl(Constants.API_BASE_URL)
             .client(okHttpClient)
             .addConverterFactory(MoshiConverterFactory.create(moshi))
-//            .addCallAdapterFactory(FlowerCallAdapterFactory.create())
             .build()
     }
 }
